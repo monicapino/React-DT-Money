@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2025-01-28T16:01:52.356Z"
+    },
+    {
+      "id": "2",
+      "description": "Hamburger",
+      "type": "outcome",
+      "category": "Aliemntação",
+      "price": 34,
+      "createdAt": "2025-01-28T16:01:59.356Z"
+    },
+    {
+      "id": "3",
+      "description": "Ignite Rocketseat",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 34,
+      "createdAt": "2025-01-28T16:01:42.356Z"
+    },
+    {
+      "id": "9f12",
+      "description": "Fone de ouvido",
+      "price": 150,
+      "category": "Itens",
+      "type": "income",
+      "createdAt": "2025-01-30T17:10:47.499Z"
+    }
+  ]
+}
