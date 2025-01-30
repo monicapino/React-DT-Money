@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+<div align="center"> <img alt="Logo" src="./src/assets/LogoTimer.svg" div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+Desafio do Ignite, proposto na trilha de React, com o objetivo de abordar de forma teórica e prática os fundamentos do ReactJS, incluindo os princípios dos hooks, o gerenciamento de estados e o ciclo de vida dos componentes.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p align="center">
+  <img alt="DT Money" src="./src/assets/dtmoney1.png" width="100%">
+</p>
+<p align="center">
+  <img alt="DT Money" src="./src/assets/dtmoney2.png" width="100%">
+</p>
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Tecnologias
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- ReactJs
+- TypeScript
+- Styled Components
+- Context API
+- React Hook Form
+- React Router DOM
+- Zod
+- Axios
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 💻 Projeto
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Este projeto tem como objetivo criar um controle financeiro para o usuário, permitindo o registro das entradas e saídas diárias. Além disso, o usuário pode utilizar o campo de busca para filtrar transações por itens ou categorias específicas.
+
+Nos bastidores, o projeto implementa diversas funcionalidades, como o uso do React Hook Form e Zod para gerenciamento de formulários, e Context para otimizar o gerenciamento de variáveis. Também foram aplicadas otimizações para evitar renderizações desnecessárias nos componentes, garantindo melhor performance.
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/design/UIOG3xLP6dpD9udAGoxTiK/DT-Money-(Community)?node-id=0-1&p=f&t=tVwzI2B8Px7tGdP2-0>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
